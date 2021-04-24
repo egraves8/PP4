@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My First Bootstrap 4 Page</title>
+        <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+        <link href="css/main.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <header class="row">
+                <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+                <!-- Brand -->
+                <a href="index.html"><img class="navbar-brand" src="Images/logo.png" alt="My Company Logo" width="50em"></a>
+                    <!-- Responsive Button for the smaller menu -->
+                    <button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <!-- Dropdown1 -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                                data-toggle="dropdown">Arts</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="violin.html">Violin</a>
+                                    <a class="dropdown-item" href="origami.html">Origami & Drawing</a>
+                                    <a class="dropdown-item" href="interior.html">Interior Design</a>
+                                </div>
+                            </li>
+                            <!-- Dropdown2 -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                                data-toggle="dropdown">Fashion</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="modeling.html">Modeling</a>
+                                    <a class="dropdown-item" href="sneakers.html">Sneakers</a>
+                                </div>
+                            </li>
+                            <!-- Dropdown3 -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                                data-toggle="dropdown">Athletics</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="tnf.html">Track & Field</a>
+                                    <a class="dropdown-item" href="football.html">Football</a>
+                                </div>
+                            </li>
+                            <!-- Links -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="comsci.html">Computer Science</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact/Social</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <div class="jumbotron container-xxl" style="background-color: rgba(255, 222, 173, 0);">
+                <img class="rounded-circle image_right" src="Images/js_code.jpg" width="300em" height="300em">
+                <img class="rounded-circle image_left" src="Images/python_code.jpg" width="300em" height="300em">
+                <h1 class="display-1 centered">Computer Science :D</h1>
+                <h3 class="display-5 centered">My passion...and outlet for curiosity</h3>
+            </div>
+            <div class="card">
+                <div class="card-body"><h2>I started coding and programming back in 11th grade. I think mainly that the fact that 
+                    I was able to have the freedom to nearly make anything from having words in a certain order and arrangement. It's 
+                    the creativity aspect that keeps me able to come back to it everytime.
+                </h2></div>
+            </div>
+            <div class="container-xxl">
+                <div class="card auxpage-card">
+                    <div class="card-header">Favorite Language</div>
+                    <div class="card-body"><img src="Images/java_code.png" width="400em" height="250em"></div>
+                    <div class="card-footer">Java was my first language and is still in genral my favorite</div>
+                </div>
+                <div class="card auxpage-card">
+                    <div class="card-header">Hardest Language (For me)</div>
+                    <div class="card-body"><img src="Images/c++_code.png" width="350em" height="250em"></div>
+                    <div class="card-footer">C++ gave me a headache the first time I saw it</div>
+                </div>
+            </div>
+            <footer class="footer page-footer font-small ">
+                <div class="container">
+                    <div class="row">
+                        <span class="text-muted">&copy; Eugene Graves III, 2020 |  Terms Of Use  |  Privacy Statement</span>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+    </body>
+</html>

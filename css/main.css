@@ -1,0 +1,85 @@
+body {
+    background-color: #121212;
+}
+
+/*Navbar Design*/
+header {
+    color: #ffffff;
+}
+.collapse.navbar-collapse {
+    justify-content: flex-end;
+}
+.navbar-nav li {
+    padding-right: 3em;
+}
+
+/*Homepage Image*/
+.home_image {
+    margin-left: 1em;
+    margin-right: 10em;
+    float: left;
+}
+
+.image_right{
+    float: right;
+}
+.image_left{
+    float: left;
+}
+
+h1 {
+    color: #a1a1a1;
+}
+h3 {
+    color: #ffffff;
+}
+
+.centered{
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+.homepage-card {
+    display: inline-block;
+    margin-bottom: 3em;
+    margin-right: 3em;
+    margin-left: 3em;
+}
+
+.card-header, .card-footer {
+    color: white;
+    background-color: #383838;
+    text-align: center;
+}
+.card-body {
+    background-color: rgb(107, 107, 107);
+}
+
+.auxpage-card {
+    display: inline-block;
+    margin-right: 10em;
+    margin-left: 10em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.description {
+    display: inline-block;
+    width: 35%;
+    margin-bottom: 10em;
+    margin-left: 6em;
+    margin-right: 5em;
+}
+
+/*Footer Design*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}

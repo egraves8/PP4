@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My First Bootstrap 4 Page</title>
+        <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+        <link href="css/main.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <header class="row">
+                <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+                <!-- Brand -->
+                <a href="index.html"><img class="navbar-brand" src="Images/logo.png" alt="My Company Logo" width="50em"></a>
+                    <!-- Responsive Button for the smaller menu -->
+                    <button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <!-- Dropdown1 -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                                data-toggle="dropdown">Arts</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="violin.html">Violin</a>
+                                    <a class="dropdown-item" href="origami.html">Origami & Drawing</a>
+                                    <a class="dropdown-item" href="interior.html">Interior Design</a>
+                                </div>
+                            </li>
+                            <!-- Dropdown2 -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                                data-toggle="dropdown">Fashion</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="modeling.html">Modeling</a>
+                                    <a class="dropdown-item" href="sneakers.html">Sneakers</a>
+                                </div>
+                            </li>
+                            <!-- Dropdown3 -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                                data-toggle="dropdown">Athletics</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="tnf.html">Track & Field</a>
+                                    <a class="dropdown-item" href="football.html">Football</a>
+                                </div>
+                            </li>
+                            <!-- Links -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="comsci.html">Computer Science</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact/Social</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <div class="jumbotron container-xxl" style="background-color: rgba(255, 222, 173, 0);">
+                <img class="rounded-circle image_right" src="Images/spider.jpg" width="300em" height="300em">
+                <img class="rounded-circle image_left" src="Images/IMG_1132.jpg" width="300em" height="300em">
+                <h1 class="display-1 centered">Origami!! :)</h1>
+                <h3 class="display-5 centered">The Art of Paper Folding</h3>
+            </div>
+            <div class="card">
+                <div class="card-body"><h2>Origami has been a very special part of art for me ever since I was about 12.
+                    I got into it through a childhood friend of mine. It is a very good stress reliever and I encourage you 
+                    all to try it.
+                </h2></div>
+            </div>
+            <div class="container-xxl">
+                <div class="card auxpage-card">
+                    <div class="card-header">My Favorite</div>
+                    <div class="card-body"><img src="Images/IMG_1110.jpg" width="300em" height="250em"></div>
+                    <div class="card-footer">Red Dragon</div>
+                </div>
+                <div class="card auxpage-card">
+                    <div class="card-header">Most Difficult</div>
+                    <div class="card-body"><img src="Images/lion_origami.jpg" width="350em" height="250em"></div>
+                    <div class="card-footer">Jungle Lion</div>
+                </div>
+            </div>
+            <footer class="footer page-footer font-small ">
+                <div class="container">
+                    <div class="row">
+                        <span class="text-muted">&copy; Eugene Graves III, 2020 |  Terms Of Use  |  Privacy Statement</span>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
